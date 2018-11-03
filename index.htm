@@ -22,21 +22,34 @@
 		<!--create a link to the style sheet-->
 		<link rel="stylesheet" href="css/main.css"/>
 		
+		<!--add jquery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<!--include my javascript function-->
+		<script src="js/js.js"></script>
+		
 		<!--set the page name-->
 		<title>home</title>
 	</head>
 	
 	<!--start the body of the website-->
 	<body>
+		<!--put a picture of terry in the header-->
 		<header>
 			<img src="media/our_god.jpg" alt="a picture of god himself, terry a davis."/>
 		</header>
 		
 		<nav>
-			<a href="index.htm">main</a>
+			<!--make a button for us to click-->
+			<button class="hamburger">&#9776;</button>
+			<ul class="nav">
+				<li><a href="index.htm">main</a></li>
+				<li><a href="https://boobiesare.life">website</a></li>
+			</ul>
+			
 		</nav>
 		
-		
+		<!--apply the grid for easy formatting-->
 		<div class="grid">
         	<div class="content flex_parent_container center-text grid1">
 				<article class="box box1">
@@ -63,6 +76,7 @@
 			<div class="content flex_parent_container center-text grid2">
 				<article class="box box3">
 					<h1><a href="https://youtube.com/snuze">youtube preview</a></h1>
+					<!--youtubes embed-->
 					<iframe src="https://www.youtube.com/embed/yvHcaCQrShI" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</article>
 				
