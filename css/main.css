@@ -158,7 +158,6 @@ iframe {
 
 .grid {
 	display: grid;
-	grid-template: repeat(3, 1fr);
 	grid-template-columns: auto auto auto;
 }
 
