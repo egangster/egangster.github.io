@@ -15,7 +15,7 @@ $(document).ready(function() {
 				var $this = $(this),
 				target = $this.data("target");
 		
-				container.load(target + ".htm");
+				container.load(target + ".html");
 		
 				return false;
 			});
